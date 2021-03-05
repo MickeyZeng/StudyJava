@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f879c17c-ed15-44f3-b2b6-57bc76cd3c7b" name="Default Changelist" comment="" />
+    <list default="true" id="f879c17c-ed15-44f3-b2b6-57bc76cd3c7b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GCDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LRUDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interviewReview/SpinLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interviewReview/SpinLock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SpinLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SpinLock.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +25,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
@@ -29,11 +39,13 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1nCU7APnlgBgwjYcGgOVBmAgUxT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -61,23 +73,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DeadLockDemo">
-    <configuration name="BLQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BLQ" />
-      <module name="interviewReview" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LRUDemo">
     <configuration name="ConditionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ConditionDemo" />
-      <module name="interviewReview" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CustomerAndProvider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CustomerAndProvider" />
       <module name="interviewReview" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,6 +88,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GCDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GCDemo" />
+      <module name="interviewReview" />
+      <option name="VM_PARAMETERS" value="-XX:+PrintCommandLineFlags -XX:+PrintGCDetails -XX:+UseConcMarkSweepGC" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LRUDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LRUDemo" />
+      <module name="interviewReview" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ThreadPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ThreadPoolDemo" />
       <module name="interviewReview" />
@@ -97,13 +110,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.ConditionDemo" />
+      <item itemvalue="Application.DeadLockDemo" />
+      <item itemvalue="Application.GCDemo" />
+      <item itemvalue="Application.ThreadPoolDemo" />
+      <item itemvalue="Application.LRUDemo" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LRUDemo" />
+        <item itemvalue="Application.GCDemo" />
         <item itemvalue="Application.DeadLockDemo" />
         <item itemvalue="Application.ThreadPoolDemo" />
         <item itemvalue="Application.ConditionDemo" />
-        <item itemvalue="Application.CustomerAndProvider" />
-        <item itemvalue="Application.BLQ" />
       </list>
     </recent_temporary>
   </component>
@@ -117,11 +137,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610893396866</updated>
-      <workItem from="1610893403744" duration="13825000" />
+      <workItem from="1610893403744" duration="14483000" />
+      <workItem from="1611569296652" duration="10000" />
+      <workItem from="1611574969680" duration="457000" />
+      <workItem from="1611580240548" duration="1294000" />
+      <workItem from="1611754512367" duration="343000" />
+      <workItem from="1612180023750" duration="177000" />
+      <workItem from="1612258304643" duration="1850000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
